@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+input {
+	border: 2px solid #999;
+	color: #999;
+}
+
+.word {
+	font-size: 2.0em;
+}
+
+.mylives{
+  color:green;
+  font-size: 4.0em;
+}
+
+.status {
+	min-height: 414px;
+    margin: 0 auto;
+    width: 432px;
+}
+
+.one{
+	background: url("img/1.jpg") no-repeat;
+	display: block;
+}
+.two{
+	background: url("img/2.jpg") no-repeat;
+	display: none;
+}
+.three{
+	background: url("img/3.jpg") no-repeat;
+	display: none;
+}
+.four{
+	background: url("img/4.jpg") no-repeat;
+	display: none;
+}
+.five{
+	background: url("img/5.jpg") no-repeat;
+	display: none;
+}
+.six{
+	background: url("img/6.jpg") no-repeat;
+	display: none;
+}

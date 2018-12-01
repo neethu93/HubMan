@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+    <link href="style.css" rel="stylesheet"><!-- Stylesheet -->
+  
+    <title>3D-Hubs-Assignment</title>
+</head>
+
+<body>
+    <h1>Save 3D hubs by guessing the correct word</h1>
+    <p class="word" id="word"></p>
+  
+    <form name="form">
+	    <input id="insertLetter" name="insertLetter" type="text" size="1" maxlength="1">
+	    <input id="guessButton" name="guessButton" type="button" value="Guess" onClick="checkLetter()">
+	    <p id="wrongLetter">Wrong Letters:</p>
+	    <input name="refresh" type="button" value="New Game" onClick="location.reload()">
+    </form>
+  
+	<div class="status one"></div>
+	<div class="status two"></div>
+	<div class="status three"></div>
+	<div class="status four"></div>
+	<div class="status five"></div>
+	<div class="status six"></div>
+  
+	<div class="mylives" id="mylives"></div>
+
+	<!-- JS -->
+	<script src="script.js"></script>
+</body>
+
+</html>
